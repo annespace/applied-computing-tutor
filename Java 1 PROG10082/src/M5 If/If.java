@@ -6,16 +6,16 @@ public class If
         int num2 = 5;
 
         if (num1 == 15) {
-            System.out.println("Yikes");
+            System.out.println("1st statememt");
             if (num1 + num2 == 20) {
-                System.out.println("Egad");
+                System.out.println("2nd statememt");
             }
             else {
-                System.out.println("Zoinks");
+                System.out.println("3rd statememt");
             }
         }
         else if (num1 != 20) {
-            System.out.println("Yowzers");
+            System.out.println("4th statememt");
         }
     }
 }
