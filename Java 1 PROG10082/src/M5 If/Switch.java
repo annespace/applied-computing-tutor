@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 import java.util.Scanner;
 
 public class Switch
@@ -30,7 +35,7 @@ public class Switch
                 System.out.println("Sunday");
                 break;
             default:
-                System.out.println(" - ");
+                System.out.println(" error ");
         }
     }
 }
