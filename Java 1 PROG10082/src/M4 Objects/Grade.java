@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 public class Grade { 
 
 	public String name; 
