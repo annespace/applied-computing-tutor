@@ -10,7 +10,6 @@ public class VanGoghMuseum {
 	
 	public static void main (String[] args) { 
 
-	
 		// € Ticket Prices
 		double adults = 20; 
 		double students = 10; 
