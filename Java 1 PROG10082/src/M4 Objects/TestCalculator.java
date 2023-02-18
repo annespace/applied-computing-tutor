@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Rich Smith
+*/
+
 public class TestCalculator {
      public static void main (String[] args)
     {
