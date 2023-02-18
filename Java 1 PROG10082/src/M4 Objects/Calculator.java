@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Rich Smith
+*/
+
 public class Calculator {
 
      public double answer;
