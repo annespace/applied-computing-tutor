@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Rich Smith
+*/
+
 import java.util.Scanner;
 
 public class TestGuess {
