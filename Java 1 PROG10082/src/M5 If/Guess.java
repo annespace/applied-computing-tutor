@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Rich Smith
+*/
+
 import java.util.Random;
 
 public class Guess {
