@@ -1,3 +1,8 @@
+/*
+ * 
+ * References for In-Class Exercise 1
+ */
+
 import java.util.Random; 
 
 public class Dice {
