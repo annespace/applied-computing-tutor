@@ -7,7 +7,7 @@ public class TestDice {
 
 	public static void main (String[] args) { 
 
-		// Creating an object
+		// Create an object
 		Dice dice = new Dice(); 
 		
 		int sum = 0; 
