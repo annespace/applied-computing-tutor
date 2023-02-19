@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 import java.util.Scanner;
 
 public class TestTranscript {
