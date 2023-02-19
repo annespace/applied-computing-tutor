@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 public class Transcript {
 
      private double studentAverage = 75.8;
