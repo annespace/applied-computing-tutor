@@ -19,7 +19,7 @@ public class DiceStatic {
 	System.out.println(sum);
 	} 
 	
-	// Using static method
+	// Use a static method
 	public static int roll() { 
 		Random rnd = new Random(); 
 		return rnd.nextInt(5) + 1;
