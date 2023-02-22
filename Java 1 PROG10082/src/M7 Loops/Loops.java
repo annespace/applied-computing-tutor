@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 public class Loops {
 
      public void whileLoop(int to){
