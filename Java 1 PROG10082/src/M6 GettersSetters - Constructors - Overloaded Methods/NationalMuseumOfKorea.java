@@ -115,4 +115,10 @@ public class NationalMuseumOfKorea {
           return "Hello, " + getName() + "👋 You've got " + getQty() +" ticket(s) for NATIONAL MUSEUM OF KOREA \r\n"
           + "We're looking forward seeing you in " + getMonth() + " " + getDay() + " " + YEAR + "🌻";
      }
+     /* A toString() is an in-built method in Java 
+     * that returns the value given to it in string format. 
+     * Hence, any object that this method is applied on, 
+     * will then be returned as a string object.
+     * later in M9!
+     */
 }
