@@ -111,7 +111,7 @@ public class NationalMuseumOfKorea {
           }
      }
 
-     public String notification(){
+     public String toString(){
           return "Hello, " + getName() + "👋 You've got " + getQty() +" ticket(s) for NATIONAL MUSEUM OF KOREA \r\n"
           + "We're looking forward seeing you in " + getMonth() + " " + getDay() + " " + YEAR + "🌻";
      }
