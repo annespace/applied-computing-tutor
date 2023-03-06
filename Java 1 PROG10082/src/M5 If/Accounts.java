@@ -10,8 +10,8 @@ public class Accounts {
 
         public static void main(String[]args)
         {
-            final double checkingAccount = 15.00;
-            final double savingsAccount = 25.00;
+            final double checkingAccount = 0.015; //1.5%
+            final double savingsAccount = 0.025; //2.5%
 
             Scanner input = new Scanner(System.in);
             System.out.printf("%-34s","Enter the account type: ");
@@ -31,12 +31,12 @@ public class Accounts {
                 exit(0);
             }
 
-            double NewBalance = balance + rate;
+            double newBalance = balance + balance * rate;
 
             System.out.printf("===================================\n");
             System.out.printf("Init. balance " + " Change " + " New Balance \n");
             System.out.printf("===================================\n");
-            System.out.printf("%.2f \t%.2f\t %.2f\n", balance, rate, NewBalance);
+            System.out.printf("%.2f \t%.2f\t %.2f\n", balance, newBalance-balance, newBalance);
 
         }
     }
