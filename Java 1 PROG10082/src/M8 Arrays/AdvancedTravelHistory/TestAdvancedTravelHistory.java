@@ -14,7 +14,7 @@ public class TestAdvancedTravelHistory{
           h1.addSpot("Imperial War Museum");
           h1.printHistory();
 
-          AdvancedTravelHistory h2 = new AdvancedTravelHistory("Min-woo","London","England");
+          AdvancedTravelHistory h2 = new AdvancedTravelHistory("MinWoo","London","England");
           h2.addSpot("Soho");
           h2.addSpot("Tower Bridge");
           h2.addSpot("Westminster Abbey");
