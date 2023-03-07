@@ -1,5 +1,9 @@
-/* An array of objects  */
+/** 
+* 
+* @author Anne Cho
+*/
 
+/* An array of objects  */
 public class TestMuseum {
 
      public static void main(String[] args) {
