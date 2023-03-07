@@ -15,12 +15,12 @@ public class TestTravelHistory
       anne.addLocation("TaiPei");
       anne.printLocation();
 
-      TravelHistory ex = new TravelHistory(3);
-      ex.addLocation("Seoul");
-      ex.addLocation("London");
-      ex.addLocation("Budapest");
-      ex.addLocation("Tokyo");
-      ex.printLocation();
+      TravelHistory minWoo = new TravelHistory(3);
+      minWoo.addLocation("Seoul");
+      minWoo.addLocation("London");
+      minWoo.addLocation("Budapest");
+      minWoo.addLocation("Tokyo");
+      minWoo.printLocation();
 
    }
 }
