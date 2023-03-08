@@ -1,14 +1,17 @@
 /*
  * 
  * References for Assignment 3 (Class: 1231_18296)
- * @Jean-Luc
+ * @Jean-Luc G.
  */
 
- import java.util.Scanner;
+import java.util.Scanner;
 import static java.lang.System.exit;
+
 public class Accounts{
+
     public static final double CHANGE_ONE = 0.015;
     public static final double CHANGE_TWO = 0.025;
+
         public static void main(String[]args){
 
         Scanner input = new Scanner(System.in);
@@ -51,4 +54,5 @@ public class Accounts{
     System.out.printf("===================================\n");
     System.out.printf("\t%.2f \t %.2f \t %.2f\n", balance, rate, newBalance);
     }
+
 }
