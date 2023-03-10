@@ -12,7 +12,7 @@ public class TestYoga {
           else{
                System.out.println("These are different members");
           }
-          /* Use the == when you're comparing primitive data types and Strings
+          /* Use the == when you're comparing primitive data types (and Strings - not recommended)
           * When we are comparing objects, write a .equals
           */
      }
