@@ -1,3 +1,8 @@
+/** 
+* 
+* @author Anne Cho
+*/
+
 public class Yoga {
 
      private String firstName;

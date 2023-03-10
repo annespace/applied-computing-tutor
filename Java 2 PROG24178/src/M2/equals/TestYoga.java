@@ -1,5 +1,10 @@
-public class TestYoga {
+/** 
+* 
+* @author Anne Cho
+*/
 
+public class TestYoga {
+     
      public static void main(String[] args) {
 
           Yoga member1 = new Yoga("Anne","Cho",56789);
