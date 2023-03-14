@@ -7,13 +7,11 @@ import java.util.ArrayList;
 
 public class BetterStack {
 
-     //Stack - to -> ArrayList
-
+     //Stack --> ArrayList
      private ArrayList<Player> playerStack = new ArrayList<Player>();
 
-     public void push (Player player) throws Exception{
+     public void push(Player player) throws Exception{
           this.playerStack.add(player);
-   
      }
 
      public Player pop() throws Exception {
