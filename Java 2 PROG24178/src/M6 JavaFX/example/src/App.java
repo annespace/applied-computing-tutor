@@ -1,4 +1,6 @@
 import javafx.application.Application;
+import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -35,9 +37,16 @@ public class App extends Application{
         primaryStage.setTitle("Learn JavaFX");
         primaryStage.show();
 
-        /* they are exactly the same thing */
-        button.setOnAction(new MyButtonEventHandler());
-        //button.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyButtonEventHandler());
+//        /* they are exactly the same thing */
+//        button.setOnAction(new MyButtonEventHandler());
+//        button.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyButtonEventHandler());
+
+        button.setOnAction(new EventHandler(){
+            @Override
+            public void handle(Event event) {
+                System.out.println("Button has been clicked.");
+            }
+        });
     }
 
 }
