@@ -4,9 +4,15 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+/**
+ *
+ * @author Anne Cho
+ */
 
 public class App extends Application{
 
@@ -28,6 +34,10 @@ public class App extends Application{
         primaryStage.setScene(scene);
         primaryStage.setTitle("Learn JavaFX");
         primaryStage.show();
+
+        /* they are exactly the same thing */
+        button.setOnAction(new MyButtonEventHandler());
+        //button.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyButtonEventHandler());
     }
 
 }
