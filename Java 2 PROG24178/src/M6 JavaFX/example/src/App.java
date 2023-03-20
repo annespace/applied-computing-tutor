@@ -30,7 +30,8 @@ public class App extends Application{
         Label label2 = new Label("Enter your name: ");
         TextField textfield1 = new TextField();
         Button button = new Button("Click");
-        VBox layout = new VBox(20, label, label2, textfield1, button);
+        Button button2 = new Button("Click");
+        VBox layout = new VBox(20, label, label2, textfield1, button, button2);
         layout.setAlignment(Pos.CENTER);
         Scene scene = new Scene(layout, 300, 200);
         primaryStage.setScene(scene);
@@ -41,12 +42,22 @@ public class App extends Application{
 //        button.setOnAction(new MyButtonEventHandler());
 //        button.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyButtonEventHandler());
 
+        /* import EventHandler */
         button.setOnAction(new EventHandler(){
             @Override
             public void handle(Event event) {
-                System.out.println("Button has been clicked.");
+                System.out.println("The first button has been clicked.");
             }
         });
+
+        /* Lambdas */
+        button2.setOnAction(e -> System.out.println("The second button has been clicked."));
+//        button2.setOnAction(e -> {
+//            System.out.println("The second button has been clicked.");
+//            System.out.println("Second line of code running.");
+//        }
+//        );
+
     }
 
 }
